@@ -1,0 +1,134 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media(max-width: 1024px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .encabezado h1 {
+        background-color: #f38080;
+        padding: 20px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: #000000;
+    }
+
+}
+
+/* Estilos para movil*/
+@media(max-width: 425px) {
+
+    .pc {
+        display: none;
+    }
+     .encabezado {
+         padding: 10px;
+         text-align: center;
+         font-size: 20px;
+         font-weight: bold;
+         color: #000000;
+
+     }
+    .encabezado nav {
+        border-bottom: 1px solid #000000;
+        padding: 5px;
+        width: 100%;
+    }
+    .encabezado h1 {
+        font-size: 20px;
+        background-color: #f38080;
+        padding: 20px;
+
+    }
+    .encabezado ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .encabezado ul li {
+        padding-right: 10px;
+        padding-left: 10px;
+        border-right: 2px solid black ;
+    }
+    .encabezado ul li:last-child {
+        border-right: none;
+    }
+
+    .encabezado ul li a {
+        text-decoration: none;
+        color: #000000;
+    }
+    .encabezado ul li a:hover {
+        color: #9a9393;
+    }
+    .parte2 section {
+        margin: 10px;
+    }
+    .parte2 section h2 {
+        margin: 10px;
+    }
+    .parte2 section img {
+        width: 100%;
+        height: 200px;
+    }
+    .parte2 section p {
+        text-align: center;
+    }
+    .contenido{
+        margin: 10px;
+    }
+    .contenido #izq{
+        display: flex;
+        justify-content: left;
+    }
+
+    .contenido img{
+        width: 300px;
+        height: 200px;
+    }
+    .contenido p{
+        width: 300px;
+        text-align: center;
+    }
+    .contenido h4{
+        text-align: center;
+        width: 300px;
+    }
+    .contenido #dcha{
+        display: flex;
+        justify-content: end;
+
+    }
+    .contenido #dcha h4{
+        text-align: right;
+        width: 300px;
+    }
+    .pie{
+        padding-right: 30px;
+        padding-bottom: 30px;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: right;
+    }
+    .pie footer{
+        background-color: #f38080;
+        border: 3px solid black;
+    }
+    .pie footer ul{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+}
